@@ -16,57 +16,42 @@
             </ul>
 
         <style>
-            body {
-    font-family: latha;
-    color: white;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)
-    ), url("../img/coffee.png") no-repeat;
-    background-size: cover;
-    margin: 0;
-}
+            body{
+                font-family: latha;
+                color: white;
+                background: linear-gradient(
+                     rgba(0,0,0, 0.85), rgba(0,0,0, 0.65),rgba(0,0,0,0.3),rgba(0,0,0,0)
+                )
+                ,url(img/coffee.png)no-repeat;
+                background-size: cover;
+            }
 
-.box {
-    width: 90%; /* Adjust as needed */
-    max-width: 400px; /* Set a maximum width */
-    margin: 20px auto; /* Center the box horizontally */
-    text-align: center;
-}
+            .box{
+                width: 900px;
+                float: right;      
+            }
 
-.box ul {
-    list-style-type: none;
-    padding: 0;
-}
+            .box ul li{
+                width: 120px;
+                float: left;
+                margin: 10px auto;  
+            }
 
-.box ul li {
-    display: block; /* Change from inline-block to block */
-    margin: 10px auto; /* Center the list items horizontally */
-}
+            .box ul li a{ text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
 
-.box ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    display: block; /* Make links fill the width of the list item */
-    padding: 10px; /* Add padding for better touch targets */
-}
+            .box ul li:hover{
+                background-color: rgb(58, 39, 25);
+                transition: 0.3s;
+                color: black;
+                border-radius: 5px;
+                box-shadow: ;
 
-.box ul li:hover {
-    background-color: rgb(58, 39, 25);
-    transition: 0.3s;
-    color: black;
-    border-radius: 5px;
-}
-
-.box ul li a:hover {
-    color: white;
-}
-
-.main {
-    max-width: 90%; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
+            }
+            .box ul li a:hover{
+                color: white;
+            }
         </style>
 
     </div>
